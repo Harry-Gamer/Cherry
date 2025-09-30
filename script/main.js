@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const targetYear = 2025;
   const birthYear = 2003;
 
-  let currentDay = -5;
+  let currentDay = -4;
   let currentMonthIndex = 0;
   let currentYear = birthYear;
   let currentAge = 0;
@@ -351,4 +351,5 @@ const animationTimeline = () => {
     tl.restart();
   });
 };
+
 
